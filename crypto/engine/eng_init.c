@@ -20,6 +20,7 @@
 int engine_unlocked_init(ENGINE *e)
 {
     int to_return = 1;
+    //test
 
     if ((e->funct_ref == 0) && e->init)
         /*
